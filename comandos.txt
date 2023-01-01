@@ -89,3 +89,16 @@ git remote -v = significa que sea verbal y nos mostrar la vinculacion con nuestr
 git fetch = es para traer cosas de github
 
 git push = es para para enviar cosas a github
+
+PARA CREAR LLAVES PUBLICAS Y PRIVADAS EN GITHUB
+
+ssh-keygen -t rsa -b 4096 -c "ejm:asd@gmail.com"= con esto creamos una llave publica y una privada para posteriormente mandar la llave publica a github
+
+eval $(ssh-agent -s) = verifica que la compu este trabajando Bienvenidos
+
+cd ~/.ssh/ = nos manda a nuestra carpeta donde esta nuestra llave publica
+
+ssh-add ~/.ssh/id_rsa = con esto se vincula nuestra llave privada con el home
+
+git remote set url origin "el ssh que copiamos de github" = comando para enlazar con las llaves ssh de github
+
