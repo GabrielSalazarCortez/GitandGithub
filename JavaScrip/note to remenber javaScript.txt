@@ -1,0 +1,93 @@
+<html>
+<head>
+	<title>Pagina para recordar Programacion</title>
+	<script>
+	a = 1
+	b = 2
+	alert("El resultado de a+b es " + (a+b))  =  EL RESULTADO DE a+b es 3
+	</script>
+</head>
+<body>
+	<h1>this page</h1>
+	<p></>
+</body>
+</html>
+
+
+parentheses are priority to program for this reason the program first run any operation that inside the parentheses
+
+
+
+
+
+
+
+
+<html>
+<head>
+	<title>Pagina para recordar Programacion</title>
+	<script>
+	a = 1
+	b = 2
+	alert("El resultado de a+b es " + a+b)  =   EL RESULTADO DE a+b es 12
+	</script>
+</head>
+<body>
+	<h1>this page</h1>
+	<p></>
+</body>
+</html>
+
+
+if don't exist parentheses, the program first run to code from left to right, for the reason the program read to text between 
+quotes ("") and then add the numbers as if they were text
+
+
+
+
+
+
+
+<html>
+<head>
+	<meta charset="utf-8" />      =     This tag that has have attributes allow us to use signs from our Spanish language
+	<title>Pagina para recordar Programacion</title>
+	<script>
+	a = 1
+	b = 2
+	alert("El resultado de a+b es " + (a+b))  =  EL RESULTADO DE a+b es 3
+	</script>
+</head>
+<body>
+	<h1>this page</h1>
+	<p></>
+</body>
+</html>
+
+
+
+Prompt        =     Bring a question
+
+
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Pagina para recordar Programacion</title>
+	<script>
+	let nombre = ""
+	nombre = prompt("Cual es tu nombre")
+	alert("Bienvenid@ " + nombre)	
+	</script>
+</head>
+<body>
+	<h1>Intento de Webside</h1>
+	<p>Esta pagina sera muy util en el futuro</p>
+	<p>Yeahh</p>
+</body>
+</html>
+
+
+
+
+
+

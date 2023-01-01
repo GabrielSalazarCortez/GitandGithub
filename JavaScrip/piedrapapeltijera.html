@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Piedra, papel o tijera</title>
+    <script>
+        // 1 piedra, 2 papel y 3 tijera
+        let jugador = 0
+        let Pc = 2
+        jugador = prompt("Elige: 1 para piedra, 2 para papel o 3 para tijera")
+        // alert("Elegiste ")
+        if(jugador == 1) {                      // el signo == sirve para señalar si se escoge algo
+            alert("Elegiste Piedra" )
+        } else if(jugador == 2){
+            alert("Elejiste Papel")
+        } else if (jugador == 3){
+            alert("Elegiste Tijera")
+        } else {
+            alert("Elegiste Perder")
+        }
+        if(Pc == 1) {
+            alert("La Pc eligio Piedra" )
+        } else if(Pc == 2){
+            alert("La Pc eligio Papel")
+        } else if (Pc == 3){
+            alert("Elegiste Tijera")
+        } 
+        // COMBATE
+        if (jugador == Pc){
+            alert("EMPATE")
+        } else if (jugador == 1 && Pc == 3){            // el signo && sirve para comparar algo
+            alert("GANASTE")
+        } else if (jugador == 2 && Pc == 1){
+            alert("GANASTE")
+        } else if(jugador == 3 && Pc == 2){
+            alert("GANASTE")
+        } else {
+            alert("PERDISTE")
+        }
+    </script>
+</head>
+<body>
+    <h1>Juega contra la Maquina</h1>
+</body>
+</html>
