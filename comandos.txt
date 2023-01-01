@@ -1,0 +1,91 @@
+pwd = nos muestra donde estamos
+
+cd = nos manda a usuario que administramos
+
+cd/ "" = nos manda al home o direccion que le asignemos
+
+ls = la lista los archivos por defecto donde estamos
+
+ls -al = nos muestra todos los archivos, INCLUSO LOS OCULTOS
+
+ls -l =  muestra archivos pero no los ocultos
+
+ls -a = muestra archivo pero no en forma de lista
+
+clear = limpia la consola
+
+cd .. = para retroceder
+
+mkdir = crea una nueva carpeta
+
+touch = permite crear archivos sin contenido
+
+cat = permite hacer una vista de un archivo que llamemos
+
+history = permite ver los comandos que usamos anteriormente
+
+rm = sirve para borrar archivos
+
+"comando" --help = te explica el significado de dicho comando
+
+git init = se utitliza para iniciar el rastreo de la carpeta que iremos modificando
+
+git status = muestra cual es el estado de nuestra carpeta rastreada
+
+git add "archivo" = para iniciar posibles cambios futuros en nuestri archivo
+
+git rm --cached "archivo" elimina el add que le pusimos al archivo
+
+ git commit -m "Mensaje" = para enviar cambios
+
+ git config = de como funcionan algunas conficuraciones
+
+ git confing --list = permite ver la configuracion por defecto 
+
+ git config --list --show-origin = muestra donde estan la congifuraciones guardadas
+
+ git config --global user.name "Name" = sirve para añadirte como usuario 
+
+ git add . = para añadir los cambios efecuados para despues mandar el commit
+
+ git log "archivo" = sirve para revisar el historial de nuestros commits
+
+ git show "archivo" = permite ver los cambios que se hicieron en el archivo seleccionado
+
+ git diff "primer enlace" "segundo enlace" = compara cambios que hayamos hecho en nuestro archivo, el primero respecto del segundo (el orde afecta)
+
+git reset "la rama que seleccionamos", exisiten dos tipos de reset 
+
+git reset "rama" --hard = vuelve a una rama en especifico y elimina lo que se haya hecho despues de esa rama (CUIDADO PUEDE BORRAR MUCHAS COSAS)
+
+git log --stat = se puede ver los cambios especificos que se hizo en los archivos
+
+git checkout "rama" "archivo" = para ver que se hizo en determinada rama de un archivio
+
+EN CASO DE USAR UN REPOSITORIO
+
+git clone url = para ingresar a un repositorio remoto donde un equipo puede trabajar
+
+git push = para envuar del repositiro locar al reoisitorio remoto
+
+git fetch = traer una rama del repositorio remoto al repositorio local
+
+git merge = sirve para traer la rama del repositorio local al directorio de trabajo
+
+git pull = simplifica fetch y merge
+
+git branch "nombre de nuestra nueva rama"
+
+git cheskout "movimiento entre ramas" = para movernos entre nuestra rama que creamos y el master
+
+PARA VINCULAR CON GITHUB
+
+git remote add origin "direccion HTTPS" = nos vincula con github
+
+git remote = nos muestra que existe un archigo origin
+
+git remote -v = significa que sea verbal y nos mostrar la vinculacion con nuestra url de github dandonos un fetch y un push
+
+git fetch = es para traer cosas de github
+
+git push = es para para enviar cosas a github
