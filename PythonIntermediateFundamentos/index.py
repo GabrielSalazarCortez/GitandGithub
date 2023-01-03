@@ -23,8 +23,6 @@ for x in n[1:3]:
 
 print(res) #24  because [1:3] take only [4,6] and makes an iteraction between the two values
 
-
-
 """
 DICTIONARIES
 
@@ -119,5 +117,6 @@ print(pairs.get(12345, "not found")) # not found
 # What is the result of this code?
 
 fib = {1: 1, 2: 1, 3: 2, 4: 3}
-print(fib.get(4, 0) + fib.get(7, 5)) # 8 the frist get exists is 4 : 3, however in the second dont existing, but result is equal 7 : 5, then 3 + 5 is 8
+print(fib.get(4, 0) + fib.get(7, 5)) # 8 the frist get exists is 4 : 3, however in the second dont existing, but result is equal 7 : 5, then 3 + 5 is 8 
+
 
