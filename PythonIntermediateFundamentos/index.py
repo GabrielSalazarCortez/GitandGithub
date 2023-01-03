@@ -36,7 +36,7 @@ Las listas son uno de estos tipos de colección y le permiten almacenar valores 
 
 """
 x = ['hi', 'hello', 'welcome']
- print(x[2]) # welcome
+print(x[2]) # welcome
 
 # Each item of a list has an index, which is automatically set.
 # Cada elemento de una lista tiene un índice, que se establece automáticamente.
@@ -93,3 +93,31 @@ nums = {
 print(1 in nums)        #True
 print("three" in nums)  #False
 print(4 not in nums)    #True
+
+"""
+A useful dictionary function is get. It does the same thing as indexing, but if the key is not found in the dictionary it returns another specified value instead.
+Una función de diccionario útil es get. Hace lo mismo que la indexación, pero si la clave no se encuentra en el diccionario, devuelve otro valor especifico.
+
+Example:
+Ejemplo:
+
+"""
+pairs = {
+   1: "apple",
+   "orange": [2, 3, 4], 
+   True: False, 
+   12: "True",
+}
+
+print(pairs.get("orange")) # [2, 3, 4]
+print(pairs.get(7, 42)) # 42
+print(pairs.get(12345, "not found")) # not found
+
+# To determine how many items a dictionary has, use the len() function.
+# Para determinar cuantos items tiene un diccionario, usa la funcion len().
+
+# What is the result of this code?
+
+fib = {1: 1, 2: 1, 3: 2, 4: 3}
+print(fib.get(4, 0) + fib.get(7, 5)) # 8 the frist get exists is 4 : 3, however in the second dont existing, but result is equal 7 : 5, then 3 + 5 is 8
+
